@@ -6,8 +6,6 @@ import { lusitana } from "@/app/ui/fonts";
 import Image from "next/image";
 
 export default function Page() {
-	console.log("AUTH_SECRET", process.env.AUTH_SECRET);
-	console.log("AUTH_URL", process.env.AUTH_URL);
 	return (
 		<main className="flex min-h-screen flex-col p-6">
 			{/* <div className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black" /> */}
